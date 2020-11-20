@@ -11,34 +11,28 @@ using System.Windows.Forms;
 
 namespace Korangi_Public_School
 {
-    public partial class Form1 : MaterialForm
+    public partial class Form5 : MaterialForm
     {
-        public Form1()
+        public Form5()
         {
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void Form5_Load(object sender, EventArgs e)
         {
 
         }
 
         private void materialRaisedButton1_Click(object sender, EventArgs e)
         {
-            Form sform = new Form2();
-            sform.ShowDialog();
+            Form attendanceview = new Form6();
+            attendanceview.ShowDialog();
         }
 
         private void materialRaisedButton2_Click(object sender, EventArgs e)
         {
-            Form staff_form = new Form3();
-            staff_form.ShowDialog();
-        }
-
-        private void materialRaisedButton3_Click(object sender, EventArgs e)
-        {
-            Form attendanceform = new Form5();
-            attendanceform.ShowDialog();
+            Form attendanceupdate = new Form7();
+            attendanceupdate.ShowDialog();
         }
     }
 }

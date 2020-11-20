@@ -60,6 +60,7 @@ namespace Korangi_Public_School
             this.materialRaisedButton2.TabIndex = 9;
             this.materialRaisedButton2.Text = "Staff Information";
             this.materialRaisedButton2.UseVisualStyleBackColor = true;
+            this.materialRaisedButton2.Click += new System.EventHandler(this.materialRaisedButton2_Click);
             // 
             // materialRaisedButton3
             // 
@@ -72,6 +73,7 @@ namespace Korangi_Public_School
             this.materialRaisedButton3.TabIndex = 10;
             this.materialRaisedButton3.Text = "Attendance Records";
             this.materialRaisedButton3.UseVisualStyleBackColor = true;
+            this.materialRaisedButton3.Click += new System.EventHandler(this.materialRaisedButton3_Click);
             // 
             // materialRaisedButton4
             // 
