@@ -28,5 +28,11 @@ namespace Korangi_Public_School
             Form regform = new Form4();
             regform.ShowDialog();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form viewform = new Form8();
+            viewform.ShowDialog();
+        }
     }
 }

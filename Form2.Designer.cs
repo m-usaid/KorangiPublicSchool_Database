@@ -389,18 +389,20 @@ namespace Korangi_Public_School
             // label16
             // 
             this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label16.Location = new System.Drawing.Point(24, 106);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(99, 19);
+            this.label16.Size = new System.Drawing.Size(77, 16);
             this.label16.TabIndex = 3;
             this.label16.Text = "Hometown:";
             // 
             // label15
             // 
             this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.Location = new System.Drawing.Point(27, 69);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(51, 19);
+            this.label15.Size = new System.Drawing.Size(42, 16);
             this.label15.TabIndex = 2;
             this.label15.Text = "Area:";
             // 
@@ -415,9 +417,10 @@ namespace Korangi_Public_School
             // label14
             // 
             this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.Location = new System.Drawing.Point(24, 35);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(80, 19);
+            this.label14.Size = new System.Drawing.Size(64, 16);
             this.label14.TabIndex = 0;
             this.label14.Text = "Address:";
             // 
