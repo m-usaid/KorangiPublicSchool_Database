@@ -7,26 +7,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using MaterialSkin.Controls;
+
 using System.Windows.Forms;
 
 namespace Korangi_Public_School
 {
-    public partial class Form1 : MaterialForm
+    public partial class Form2 : MaterialForm
     {
-        public Form1()
+        public Form2()
         {
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void Form2_Load(object sender, EventArgs e)
         {
 
-        }
-
-        private void materialRaisedButton1_Click(object sender, EventArgs e)
-        {
-            Form sform = new Form2();
-            sform.Show();
         }
     }
 }
