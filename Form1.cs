@@ -40,5 +40,10 @@ namespace Korangi_Public_School
             Form attendanceform = new Form5();
             attendanceform.ShowDialog();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
