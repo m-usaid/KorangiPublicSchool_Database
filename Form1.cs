@@ -25,7 +25,7 @@ namespace Korangi_Public_School
 
         private void materialRaisedButton1_Click(object sender, EventArgs e)
         {
-            Form sform = new Form2();
+            Form sform = new Form9();
             sform.ShowDialog();
         }
 

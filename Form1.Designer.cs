@@ -45,7 +45,7 @@ namespace Korangi_Public_School
             this.materialRaisedButton1.Primary = true;
             this.materialRaisedButton1.Size = new System.Drawing.Size(231, 48);
             this.materialRaisedButton1.TabIndex = 8;
-            this.materialRaisedButton1.Text = "Student Admissions";
+            this.materialRaisedButton1.Text = "Student Information";
             this.materialRaisedButton1.UseVisualStyleBackColor = true;
             this.materialRaisedButton1.Click += new System.EventHandler(this.materialRaisedButton1_Click);
             // 
