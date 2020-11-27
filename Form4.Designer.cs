@@ -219,7 +219,7 @@ namespace Korangi_Public_School
             // 
             this.button2.Location = new System.Drawing.Point(386, 555);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.Size = new System.Drawing.Size(84, 26);
             this.button2.TabIndex = 41;
             this.button2.Text = "Register";
             this.button2.UseVisualStyleBackColor = true;

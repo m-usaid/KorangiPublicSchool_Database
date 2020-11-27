@@ -34,5 +34,11 @@ namespace Korangi_Public_School
             Form s_view = new Form10();
             s_view.ShowDialog();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form update_student = new Form12();
+            update_student.ShowDialog();
+        }
     }
 }

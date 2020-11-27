@@ -34,5 +34,11 @@ namespace Korangi_Public_School
             Form viewform = new Form8();
             viewform.ShowDialog();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Form update_staff = new Form13();
+            update_staff.ShowDialog();
+        }
     }
 }
