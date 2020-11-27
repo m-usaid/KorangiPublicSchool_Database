@@ -26,12 +26,6 @@ namespace Korangi_Public_School
 
         private void Form4_Load(object sender, EventArgs e)
         {
-            if (radioButton2.Checked == true)
-            {
-                textBox5.ReadOnly = true;
-                listBox1.Enabled = false;
-                button1.Enabled = false;
-            }
         }
 
         private void button1_Click(object sender, EventArgs e)
