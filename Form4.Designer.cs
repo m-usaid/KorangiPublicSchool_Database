@@ -72,6 +72,7 @@ namespace Korangi_Public_School
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "Staff";
             this.radioButton2.UseVisualStyleBackColor = false;
+            this.radioButton2.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
             // 
             // label1
             // 

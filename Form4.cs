@@ -39,5 +39,16 @@ namespace Korangi_Public_School
             string sub = textBox5.Text;
             listBox1.Items.Add(sub);
         }
+
+        private void radioButton2_CheckedChanged(object sender, EventArgs e)
+        {
+            if (radioButton2.Checked == true)
+            {
+                textBox5.ReadOnly = true;
+                textBox5.Enabled = false;
+                listBox1.Enabled = false;
+                button1.Enabled = false;
+            }
+        }
     }
 }
