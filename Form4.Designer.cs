@@ -48,6 +48,8 @@ namespace Korangi_Public_School
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // radioButton1
@@ -61,6 +63,7 @@ namespace Korangi_Public_School
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "Teacher";
             this.radioButton1.UseVisualStyleBackColor = false;
+            this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
             // 
             // radioButton2
             // 
@@ -183,7 +186,7 @@ namespace Korangi_Public_School
             // 
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(44, 407);
+            this.label5.Location = new System.Drawing.Point(44, 447);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(66, 17);
             this.label5.TabIndex = 37;
@@ -193,21 +196,21 @@ namespace Korangi_Public_School
             // 
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 16;
-            this.listBox1.Location = new System.Drawing.Point(173, 446);
+            this.listBox1.Location = new System.Drawing.Point(173, 486);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(224, 84);
             this.listBox1.TabIndex = 38;
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(173, 407);
+            this.textBox5.Location = new System.Drawing.Point(173, 447);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(152, 22);
             this.textBox5.TabIndex = 39;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(360, 399);
+            this.button1.Location = new System.Drawing.Point(360, 439);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 33);
             this.button1.TabIndex = 40;
@@ -217,18 +220,37 @@ namespace Korangi_Public_School
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(386, 555);
+            this.button2.Location = new System.Drawing.Point(386, 595);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(84, 26);
             this.button2.TabIndex = 41;
             this.button2.Text = "Register";
             this.button2.UseVisualStyleBackColor = true;
             // 
+            // textBox7
+            // 
+            this.textBox7.Location = new System.Drawing.Point(173, 402);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(224, 22);
+            this.textBox7.TabIndex = 43;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.White;
+            this.label7.Location = new System.Drawing.Point(44, 402);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(87, 17);
+            this.label7.TabIndex = 42;
+            this.label7.Text = "Designation:";
+            // 
             // Form4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(536, 611);
+            this.ClientSize = new System.Drawing.Size(536, 669);
+            this.Controls.Add(this.textBox7);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox5);
@@ -277,5 +299,7 @@ namespace Korangi_Public_School
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.Label label7;
     }
 }

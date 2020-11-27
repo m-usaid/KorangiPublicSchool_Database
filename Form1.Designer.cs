@@ -88,6 +88,7 @@ namespace Korangi_Public_School
             this.materialRaisedButton4.TabIndex = 11;
             this.materialRaisedButton4.Text = "Academic Information";
             this.materialRaisedButton4.UseVisualStyleBackColor = true;
+            this.materialRaisedButton4.Click += new System.EventHandler(this.materialRaisedButton4_Click);
             // 
             // label1
             // 

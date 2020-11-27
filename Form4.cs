@@ -38,10 +38,21 @@ namespace Korangi_Public_School
         {
             if (radioButton2.Checked == true)
             {
-                textBox5.ReadOnly = true;
                 textBox5.Enabled = false;
                 listBox1.Enabled = false;
                 button1.Enabled = false;
+                textBox7.Enabled = true;
+            }
+        }
+
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (radioButton1.Checked)
+            {
+                textBox5.Enabled = true;
+                listBox1.Enabled = true;
+                button1.Enabled = true;
+                textBox7.Enabled = false;
             }
         }
     }
