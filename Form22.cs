@@ -11,27 +11,31 @@ using System.Windows.Forms;
 
 namespace Korangi_Public_School
 {
-    public partial class Form16 : MaterialForm
+    public partial class Form22 : MaterialForm
     {
-        public Form16()
+        public Form22()
         {
             InitializeComponent();
         }
 
-        private void Form16_Load(object sender, EventArgs e)
+        private void Form22_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }
 
         private void materialRaisedButton1_Click(object sender, EventArgs e)
         {
-            Form classroom = new Form17();
-            classroom.ShowDialog();
-        }
-
-        private void materialRaisedButton2_Click(object sender, EventArgs e)
-        {
-
+            this.Close();
         }
     }
 }

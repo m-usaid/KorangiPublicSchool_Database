@@ -29,10 +29,29 @@ namespace Korangi_Public_School
             exams.ShowDialog();
         }
 
+
+        private void materialRaisedButton5_Click(object sender, EventArgs e)
+        {
+            Form classroom = new Form17();
+            classroom.ShowDialog();
+        }
+
         private void materialRaisedButton1_Click(object sender, EventArgs e)
         {
-            Form logistics = new Form16();
-            logistics.ShowDialog();
+            Form grade = new Form20();
+            grade.ShowDialog();
+        }
+
+        private void materialRaisedButton4_Click(object sender, EventArgs e)
+        {
+            Form teacher = new Form22();
+            teacher.ShowDialog();
+        }
+
+        private void materialRaisedButton3_Click(object sender, EventArgs e)
+        {
+            Form subject = new Form23();
+            subject.ShowDialog();
         }
     }
 }

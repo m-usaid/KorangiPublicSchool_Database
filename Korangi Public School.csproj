@@ -91,11 +91,11 @@
     <Compile Include="Form15.Designer.cs">
       <DependentUpon>Form15.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form16.cs">
+    <Compile Include="Form23.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form16.Designer.cs">
-      <DependentUpon>Form16.cs</DependentUpon>
+    <Compile Include="Form23.Designer.cs">
+      <DependentUpon>Form23.cs</DependentUpon>
     </Compile>
     <Compile Include="Form17.cs">
       <SubType>Form</SubType>
@@ -126,6 +126,18 @@
     </Compile>
     <Compile Include="Form20.Designer.cs">
       <DependentUpon>Form20.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form21.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form21.Designer.cs">
+      <DependentUpon>Form21.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form22.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form22.Designer.cs">
+      <DependentUpon>Form22.cs</DependentUpon>
     </Compile>
     <Compile Include="Form3.cs">
       <SubType>Form</SubType>
@@ -192,8 +204,8 @@
     <EmbeddedResource Include="Form15.resx">
       <DependentUpon>Form15.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form16.resx">
-      <DependentUpon>Form16.cs</DependentUpon>
+    <EmbeddedResource Include="Form23.resx">
+      <DependentUpon>Form23.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form17.resx">
       <DependentUpon>Form17.cs</DependentUpon>
@@ -209,6 +221,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form20.resx">
       <DependentUpon>Form20.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form21.resx">
+      <DependentUpon>Form21.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form22.resx">
+      <DependentUpon>Form22.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form3.resx">
       <DependentUpon>Form3.cs</DependentUpon>
@@ -263,6 +281,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\rsz_1rsz_1rsz_kps_logo22.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

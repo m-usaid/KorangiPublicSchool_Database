@@ -11,17 +11,16 @@ using System.Windows.Forms;
 
 namespace Korangi_Public_School
 {
-    public partial class Form20 : MaterialForm
+    public partial class Form21 : MaterialForm
     {
-        public Form20()
+        public Form21()
         {
             InitializeComponent();
         }
 
-        private void Form20_Load(object sender, EventArgs e)
+        private void Form21_Load(object sender, EventArgs e)
         {
 
         }
-
     }
 }
