@@ -1,7 +1,7 @@
 ﻿
 namespace Korangi_Public_School
 {
-    partial class Form14
+    partial class Form17
     {
         /// <summary>
         /// Required designer variable.
@@ -36,39 +36,39 @@ namespace Korangi_Public_School
             // materialRaisedButton1
             // 
             this.materialRaisedButton1.Depth = 0;
-            this.materialRaisedButton1.Location = new System.Drawing.Point(54, 129);
+            this.materialRaisedButton1.Location = new System.Drawing.Point(64, 113);
             this.materialRaisedButton1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialRaisedButton1.Name = "materialRaisedButton1";
             this.materialRaisedButton1.Primary = true;
-            this.materialRaisedButton1.Size = new System.Drawing.Size(248, 44);
+            this.materialRaisedButton1.Size = new System.Drawing.Size(248, 47);
             this.materialRaisedButton1.TabIndex = 0;
-            this.materialRaisedButton1.Text = "Logistical Information";
+            this.materialRaisedButton1.Text = "New Classroom";
             this.materialRaisedButton1.UseVisualStyleBackColor = true;
             this.materialRaisedButton1.Click += new System.EventHandler(this.materialRaisedButton1_Click);
             // 
             // materialRaisedButton2
             // 
             this.materialRaisedButton2.Depth = 0;
-            this.materialRaisedButton2.Location = new System.Drawing.Point(390, 129);
+            this.materialRaisedButton2.Location = new System.Drawing.Point(64, 200);
             this.materialRaisedButton2.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialRaisedButton2.Name = "materialRaisedButton2";
             this.materialRaisedButton2.Primary = true;
-            this.materialRaisedButton2.Size = new System.Drawing.Size(248, 44);
+            this.materialRaisedButton2.Size = new System.Drawing.Size(248, 47);
             this.materialRaisedButton2.TabIndex = 1;
-            this.materialRaisedButton2.Text = "Examinations";
+            this.materialRaisedButton2.Text = "Update Classroom Info";
             this.materialRaisedButton2.UseVisualStyleBackColor = true;
             this.materialRaisedButton2.Click += new System.EventHandler(this.materialRaisedButton2_Click);
             // 
-            // Form14
+            // Form17
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(715, 419);
+            this.ClientSize = new System.Drawing.Size(389, 315);
             this.Controls.Add(this.materialRaisedButton2);
             this.Controls.Add(this.materialRaisedButton1);
-            this.Name = "Form14";
-            this.Text = "Academic Information";
-            this.Load += new System.EventHandler(this.Form14_Load);
+            this.Name = "Form17";
+            this.Text = "Classroom Information";
+            this.Load += new System.EventHandler(this.Form17_Load);
             this.ResumeLayout(false);
 
         }
