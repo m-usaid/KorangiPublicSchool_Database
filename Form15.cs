@@ -20,6 +20,23 @@ namespace Korangi_Public_School
 
         private void Form15_Load(object sender, EventArgs e)
         {
+            
+        }
+
+        private void materialRaisedButton3_Click(object sender, EventArgs e)
+        {
+            Form create = new Form16();
+            create.ShowDialog();
+        }
+
+        private void materialRaisedButton2_Click(object sender, EventArgs e)
+        {
+            Form show = new Form24();
+            show.ShowDialog();
+        }
+
+        private void materialRaisedButton1_Click(object sender, EventArgs e)
+        {
 
         }
     }

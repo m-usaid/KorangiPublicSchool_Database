@@ -45,6 +45,7 @@ namespace Korangi_Public_School
             this.materialRaisedButton2.TabIndex = 1;
             this.materialRaisedButton2.Text = "View Scheduled Exams";
             this.materialRaisedButton2.UseVisualStyleBackColor = true;
+            this.materialRaisedButton2.Click += new System.EventHandler(this.materialRaisedButton2_Click);
             // 
             // materialRaisedButton3
             // 
@@ -57,6 +58,7 @@ namespace Korangi_Public_School
             this.materialRaisedButton3.TabIndex = 2;
             this.materialRaisedButton3.Text = "Create Exam";
             this.materialRaisedButton3.UseVisualStyleBackColor = true;
+            this.materialRaisedButton3.Click += new System.EventHandler(this.materialRaisedButton3_Click);
             // 
             // materialRaisedButton1
             // 
@@ -69,6 +71,7 @@ namespace Korangi_Public_School
             this.materialRaisedButton1.TabIndex = 3;
             this.materialRaisedButton1.Text = "Exam Results";
             this.materialRaisedButton1.UseVisualStyleBackColor = true;
+            this.materialRaisedButton1.Click += new System.EventHandler(this.materialRaisedButton1_Click);
             // 
             // Form15
             // 
